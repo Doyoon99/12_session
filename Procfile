@@ -1,0 +1,1 @@
+web: gunicorn vacation_4stproject.wsgi --log-file -
