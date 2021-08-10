@@ -128,11 +128,7 @@ DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
 
 #AWS
 
-AWS_ACCESS_KEY_ID = os.environ.get('AKIAU6PHFFK7LP5P6YNP')
-AWS_SECRET_ACCESS_KEY = os.environ.get('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')
-AWS_STORAGE_BUCKET_NAME = 'doyoonbucket'
-AWS_S3_SIGNATURE_VERSION = 's3v4'
-AWS_S3_REGION_NAME = 'ap-northeast-2'
+
 
 import dj_database_url 
 db_from_env = dj_database_url.config(conn_max_age=500) 
